@@ -1,6 +1,5 @@
 <?php 
-include('login.php') 
-echo("CyberOps")
+include('login.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
