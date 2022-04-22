@@ -28,7 +28,7 @@ if ($_SERVER["REQUEST_METHOD"]== "POST") {
 			echo "<script language='javascript'>";
 			echo "alert('WRONG INFORMATION')";
 			echo "</script>";
-			die();
+			print '<script>window.location.assign("index.php");</script>';//redirect to login.php	
 		}
 	}
 }
